@@ -14,8 +14,8 @@ ext.JDROID_JAVA_VERSION = '0.15.0'
 // https://github.com/maxirosson/jdroid-java-http/blob/master/CHANGELOG.md
 ext.JDROID_JAVA_HTTP_VERSION = '0.15.0'
 
-apply plugin: 'com.jdroid.java.library'
 apply plugin: 'com.jdroid.component.builder'
+apply plugin: 'com.jdroid.java.library'
 
 buildscript {
 	repositories {
