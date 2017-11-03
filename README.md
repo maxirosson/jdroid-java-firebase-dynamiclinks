@@ -1,14 +1,14 @@
-# Jdroid Firebase Dynamic Link
+# Jdroid Firebase Dynamic Links
 
 ## Continuous Integration
 |Branch|Status|
 | ------------- | ------------- |
-|Master|[![Build Status](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclink.svg?branch=master)](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclink)|
-|Staging|[![Build Status](https://api.travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclink.svg?branch=staging)](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclink)|
-|Production|[![Build Status](https://api.travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclink.svg?branch=production)](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclink)|
+|Master|[![Build Status](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks.svg?branch=master)](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks)|
+|Staging|[![Build Status](https://api.travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks.svg?branch=staging)](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks)|
+|Production|[![Build Status](https://api.travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks.svg?branch=production)](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks)|
 
 ## Features
-* Dynamic Link builder
+* Dynamic Links builder
 
 ## Setup
 
@@ -19,10 +19,10 @@ Add the following lines to your `build.gradle`:
     }
 
     dependencies {
-      compile 'com.jdroidframework:jdroid-java-firebase-dynamiclink-firebase-dynamiclink:X.Y.Z'
+      compile 'com.jdroidframework:jdroid-java-firebase-dynamiclinks:X.Y.Z'
     }
 
-Replace the X.Y.Z by the [latest version](https://github.com/maxirosson/jdroid-java-firebase-dynamiclink/releases/latest)
+Replace the X.Y.Z by the [latest version](https://github.com/maxirosson/jdroid-java-firebase-dynamiclinks/releases/latest)
 
 
 ## Donations

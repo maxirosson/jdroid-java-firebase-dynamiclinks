@@ -1,9 +1,9 @@
 version = '0.1.0'
 
-ext.PROJECT_NAME = 'Jdroid Java Firebase Dynamic Link'
+ext.PROJECT_NAME = 'Jdroid Java Firebase Dynamic Links'
 description = 'Firebase Dynamic Link for Jdroid'
 
-ext.JDROID_GITHUB_REPOSITORY_NAME = 'jdroid-java-firebase-dynamiclink'
+ext.JDROID_GITHUB_REPOSITORY_NAME = 'jdroid-java-firebase-dynamiclinks'
 
 // https://github.com/maxirosson/jdroid-gradle-plugin/blob/master/CHANGELOG.md
 ext.JDROID_GRADLE_PLUGIN_VERSION = '0.18.0'

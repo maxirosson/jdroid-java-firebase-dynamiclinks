@@ -1,9 +1,9 @@
-package com.jdroid.java.firebase.dynamiclink;
+package com.jdroid.java.firebase.dynamiclinks;
 
-import com.jdroid.java.firebase.dynamiclink.domain.DynamicLink;
-import com.jdroid.java.firebase.dynamiclink.domain.DynamicLinkResponse;
-import com.jdroid.java.firebase.dynamiclink.domain.LongDynamicLink;
-import com.jdroid.java.firebase.dynamiclink.domain.SuffixOption;
+import com.jdroid.java.firebase.dynamiclinks.domain.DynamicLink;
+import com.jdroid.java.firebase.dynamiclinks.domain.DynamicLinkResponse;
+import com.jdroid.java.firebase.dynamiclinks.domain.LongDynamicLink;
+import com.jdroid.java.firebase.dynamiclinks.domain.SuffixOption;
 import com.jdroid.java.http.DefaultServer;
 import com.jdroid.java.http.HttpService;
 import com.jdroid.java.http.MimeType;

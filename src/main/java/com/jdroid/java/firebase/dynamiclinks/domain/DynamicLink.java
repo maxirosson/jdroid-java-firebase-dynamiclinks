@@ -1,4 +1,4 @@
-package com.jdroid.java.firebase.dynamiclink.domain;
+package com.jdroid.java.firebase.dynamiclinks.domain;
 
 import com.jdroid.java.http.AbstractHttpService;
 
