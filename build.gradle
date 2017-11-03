@@ -1,0 +1,62 @@
+version = '0.1.0'
+
+ext.PROJECT_NAME = 'Jdroid Java Firebase Dynamic Link'
+description = 'Firebase Dynamic Link for Jdroid'
+
+ext.JDROID_GITHUB_REPOSITORY_NAME = 'jdroid-java-firebase-dynamiclink'
+
+// https://github.com/maxirosson/jdroid-gradle-plugin/blob/master/CHANGELOG.md
+ext.JDROID_GRADLE_PLUGIN_VERSION = '0.18.0'
+
+// https://github.com/maxirosson/jdroid-java/blob/master/CHANGELOG.md
+ext.JDROID_JAVA_VERSION = '0.15.0-SNAPSHOT'
+
+// https://github.com/maxirosson/jdroid-java-http/blob/master/CHANGELOG.md
+ext.JDROID_JAVA_HTTP_VERSION = '0.15.0-SNAPSHOT'
+
+apply plugin: 'com.jdroid.java.library'
+apply plugin: 'com.jdroid.component.builder'
+
+buildscript {
+	repositories {
+		jcenter()
+		maven { url "https://plugins.gradle.org/m2/" }
+		String localMavenRepo = project.hasProperty('LOCAL_MAVEN_REPO') ? project.ext.get('LOCAL_MAVEN_REPO') : System.getenv('LOCAL_MAVEN_REPO')
+		if (localMavenRepo != null) {
+			maven { url localMavenRepo }
+		}
+		maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+	}
+	dependencies {
+		// https://github.com/maxirosson/jdroid-component-builder/blob/master/CHANGELOG.md
+		classpath 'com.jdroidframework:jdroid-component-builder:0.4.0'
+
+		// https://github.com/maxirosson/jdroid-gradle-plugin/blob/master/CHANGELOG.md
+		classpath 'com.jdroidframework:jdroid-gradle-java-plugin:0.18.0'
+
+	}
+}
+
+repositories {
+	jcenter()
+	String localMavenRepo = project.hasProperty('LOCAL_MAVEN_REPO') ? project.ext.get('LOCAL_MAVEN_REPO') : System.getenv('LOCAL_MAVEN_REPO')
+	if (localMavenRepo != null) {
+		maven { url localMavenRepo }
+	}
+	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+}
+
+dependencies {
+
+	implementation "com.jdroidframework:jdroid-java-core:${JDROID_JAVA_VERSION}"
+	implementation ("com.jdroidframework:jdroid-java-http-core:${JDROID_JAVA_HTTP_VERSION}") {
+		exclude module: 'jdroid-java-core'
+	}
+	// Testing
+	testImplementation "org.testng:testng:6.8.21"
+}
+
+test {
+	useTestNG {
+	}
+}
