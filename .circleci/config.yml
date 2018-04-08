@@ -64,8 +64,8 @@ jobs:
           path: ~/junit
 
       - store_artifacts:
-          path: ./jdroid-java-firebase-dynamiclinks/build/reports/tests/test
-          destination: jdroid-java-firebase-dynamiclinks/tests
+          path: ./build/reports/tests/test
+          destination: tests
 
   deploy:
     <<: *defaults
