@@ -1,11 +1,12 @@
 # Jdroid Firebase Dynamic Links
 
 ## Continuous Integration
-|Branch|Status|
-| ------------- | ------------- |
-|Master|[![Build Status](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks.svg?branch=master)](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks)|
-|Staging|[![Build Status](https://api.travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks.svg?branch=staging)](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks)|
-|Production|[![Build Status](https://api.travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks.svg?branch=production)](https://travis-ci.org/maxirosson/jdroid-java-firebase-dynamiclinks)|
+|Branch|Status|Workflows|Insights|
+| ------------- | ------------- | ------------- | ------------- |
+|master|[![CircleCI](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/master.svg?style=svg)](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/master)|[Workflows](https://circleci.com/gh/maxirosson/workflows/jdroid-java-firebase-dynamiclinks/tree/master)|[Insights](https://circleci.com/build-insights/gh/maxirosson/jdroid-java-firebase-dynamiclinks/master)|
+|staging|[![CircleCI](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/staging.svg?style=svg)](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/staging)|[Workflows](https://circleci.com/gh/maxirosson/workflows/jdroid-java-firebase-dynamiclinks/tree/staging)|[Insights](https://circleci.com/build-insights/gh/maxirosson/jdroid-java-firebase-dynamiclinks/staging)|
+|production|[![CircleCI](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/production.svg?style=svg)](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/production)|[Workflows](https://circleci.com/gh/maxirosson/workflows/jdroid-java-firebase-dynamiclinks/tree/production)|[Insights](https://circleci.com/build-insights/gh/maxirosson/jdroid-java-firebase-dynamiclinks/production)|
+
 
 ## Features
 * Dynamic Links builder
@@ -29,5 +30,3 @@ Replace the X.Y.Z by the [latest version](https://github.com/maxirosson/jdroid-j
 Help us to continue with this project:
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2UEBTRTSCYA9L)
-
-<a href='https://pledgie.com/campaigns/30030'><img alt='Click here to lend your support to: Jdroid and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30030.png?skin_name=chrome' border='0' ></a>
