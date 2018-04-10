@@ -20,7 +20,7 @@ Add the following lines to your `build.gradle`:
     }
 
     dependencies {
-      compile 'com.jdroidframework:jdroid-java-firebase-dynamiclinks:X.Y.Z'
+      compile 'com.jdroidtools:jdroid-java-firebase-dynamiclinks:X.Y.Z'
     }
 
 Replace the X.Y.Z by the [latest version](https://github.com/maxirosson/jdroid-java-firebase-dynamiclinks/releases/latest)

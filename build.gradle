@@ -6,13 +6,13 @@ description = 'Firebase Dynamic Link for Jdroid'
 ext.JDROID_GITHUB_REPOSITORY_NAME = 'jdroid-java-firebase-dynamiclinks'
 
 // https://github.com/maxirosson/jdroid-gradle-plugin/blob/master/CHANGELOG.md
-ext.JDROID_GRADLE_PLUGIN_VERSION = '0.18.0'
+ext.JDROID_GRADLE_PLUGIN_VERSION = '1.0.0'
 
 // https://github.com/maxirosson/jdroid-java/blob/master/CHANGELOG.md
-ext.JDROID_JAVA_VERSION = '0.15.0'
+ext.JDROID_JAVA_VERSION = '1.0.0'
 
 // https://github.com/maxirosson/jdroid-java-http/blob/master/CHANGELOG.md
-ext.JDROID_JAVA_HTTP_VERSION = '0.15.0'
+ext.JDROID_JAVA_HTTP_VERSION = '1.0.0'
 
 apply plugin: 'com.jdroid.component.builder'
 apply plugin: 'com.jdroid.java.library'
@@ -29,10 +29,10 @@ buildscript {
 	}
 	dependencies {
 		// https://github.com/maxirosson/jdroid-component-builder/blob/master/CHANGELOG.md
-		classpath 'com.jdroidframework:jdroid-component-builder:0.4.0'
+		classpath 'com.jdroidtools:jdroid-component-builder:1.0.0'
 
 		// https://github.com/maxirosson/jdroid-gradle-plugin/blob/master/CHANGELOG.md
-		classpath 'com.jdroidframework:jdroid-gradle-java-plugin:0.18.0'
+		classpath 'com.jdroidtools:jdroid-gradle-java-plugin:1.0.0'
 
 	}
 }
@@ -48,8 +48,8 @@ repositories {
 
 dependencies {
 
-	implementation "com.jdroidframework:jdroid-java-core:${JDROID_JAVA_VERSION}"
-	implementation ("com.jdroidframework:jdroid-java-http-core:${JDROID_JAVA_HTTP_VERSION}") {
+	implementation "com.jdroidtools:jdroid-java-core:${JDROID_JAVA_VERSION}"
+	implementation ("com.jdroidtools:jdroid-java-http-core:${JDROID_JAVA_HTTP_VERSION}") {
 		exclude module: 'jdroid-java-core'
 	}
 	// Testing
