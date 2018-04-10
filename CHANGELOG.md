@@ -1,5 +1,8 @@
 # Change Log
 
+## [v1.0.0](https://github.com/maxirosson/jdroid-java-firebase-dynamiclinks/tree/v1.0.0) (2018-04-10)
+[Full Changelog](https://github.com/maxirosson/jdroid-java-firebase-dynamiclinks/compare/v0.1.0...v1.0.0)
+
 ## [v0.1.0](https://github.com/maxirosson/jdroid-java-firebase-dynamiclinks/tree/v0.1.0) (2017-11-03)
 
 
