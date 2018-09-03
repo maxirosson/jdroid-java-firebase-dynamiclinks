@@ -4,7 +4,6 @@
 |Branch|Status|Workflows|Insights|
 | ------------- | ------------- | ------------- | ------------- |
 |master|[![CircleCI](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/master.svg?style=svg)](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/master)|[Workflows](https://circleci.com/gh/maxirosson/workflows/jdroid-java-firebase-dynamiclinks/tree/master)|[Insights](https://circleci.com/build-insights/gh/maxirosson/jdroid-java-firebase-dynamiclinks/master)|
-|staging|[![CircleCI](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/staging.svg?style=svg)](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/staging)|[Workflows](https://circleci.com/gh/maxirosson/workflows/jdroid-java-firebase-dynamiclinks/tree/staging)|[Insights](https://circleci.com/build-insights/gh/maxirosson/jdroid-java-firebase-dynamiclinks/staging)|
 |production|[![CircleCI](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/production.svg?style=svg)](https://circleci.com/gh/maxirosson/jdroid-java-firebase-dynamiclinks/tree/production)|[Workflows](https://circleci.com/gh/maxirosson/workflows/jdroid-java-firebase-dynamiclinks/tree/production)|[Insights](https://circleci.com/build-insights/gh/maxirosson/jdroid-java-firebase-dynamiclinks/production)|
 
 
